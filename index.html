@@ -11,16 +11,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="SASS/style.css">
 </head>
 
 <body class="bg-secondary-subtle">
 
-  <nav class="navbar navbar-expand-lg bg-white sticky-top">
+  <nav class="navbar navbar-expand-lg  sticky-top" >
     <div class="container"><!-- SAYFADA ORTALAR -->
       <!--navbar-brand LOGO AYARLARINI UYGULAR -->
-      <div class="navbar-brand d-flex flex-column  ">
+      <div class="navbar-brand d-flex flex-column ">
         <img src="image/udemig.png" width="72" height="45" alt="">
-        <a class="navbar-brand fs-6 ps-2 py-0 fw-bolder" style="font-size: 20px;" href="#top">Udemig</a>
+        <a class="navbar-brand fs-6 ps-1 py-0 fw-bolder " style="font-size: 20px;" href="#top">Udemig</a>
       </div>
       <button class="navbar-toggler bg-secondary-subtle focus-ring focus-ring-light" type="button"
         data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
@@ -45,7 +46,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="/blog.html">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/about.html">HAKKIMIZDA</a>
@@ -112,24 +113,24 @@
         <p class="fw-light">Profesyoneller olarak geliştirebileceğimiz en önemli alanlardan biri bilgiye erişme ve
           bilgiyi paylaşma
           yetkinliğidir</p>
-        <button class="btn btn-success p-3">KURSLARIMIZ</button>
+        <button class="btn btn-success p-3 ">KURSLARIMIZ</button>
       </div>
       <div class="col w-100 text-center ">
-        <img src="image/banner.png" class="rounded-circle" alt="">
+        <img src="image/banner.png" class="rounded-circle" alt=""  >
       </div>
     </div>
   </div>
 
   <!-- FOOTER -->
-  <div class="w-100 bg-dark py-5">
+  <div class="w-100 bg-dark py-5 text-center">
     <footer class="container bg-dark">
       <div class="row text-light">
-        <div class="col-sm-6 col-md-3 d-flex flex-column gap-1 ">
+        <div class="col-sm-6 my-3 col-md-3 d-flex flex-column gap-1 ">
           <p class="fs-6 fw-bolder ">Yasal</p>
-          <span class="fs-6 fw-light text-white-50"><b>Tel:</b> +(46) 70 431 2038</span>
-          <span class="fs-6 fw-light text-white-50"><b>Email:</b> info@udemig.dev </span>
-          <span class="fs-6 fw-light text-white-50"><b>Yer:</b> Stokholm, İsveç</span>
-          <span class="fs-6 mt-4">
+          <span class="fs-6 fw-light text-white-50"><b style="color:white">Tel:</b> +(46) 70 431 2038</span>
+          <span class="fs-6 fw-light text-white-50"><b style="color:white">Email:</b> info@udemig.dev </span>
+          <span class="fs-6 fw-light text-white-50"><b style="color:white">Yer:</b> Stokholm, İsveç</span>
+          <span class="fs-6 mt-4 d-flex gap-2 align-items-center">
             <b class="fw-light">Bizi takip edin:</b>
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-twitter"></i>
@@ -137,18 +138,18 @@
             <i class="fa-brands fa-linkedin"></i>
           </span>
         </div>
-        <div class="col-sm-6 col-md-3 d-flex flex-column gap-1">
+        <div class="col-sm-6 my-3 col-md-3 d-flex flex-column gap-1">
           <p class="fs-6 fw-bolder ">Keşfetmek</p>
           <a class="fs-6 fw-light text-white-50 text-decoration-none"> Hakkımızda</a>
           <a class="fs-6 fw-light text-white-50 text-decoration-none"> Bize Ulaşın</a>
         </div>
-        <div class="col-sm-6 col-md-3 d-flex flex-column gap-1">
+        <div class="col-sm-6 my-3 col-md-3 d-flex flex-column gap-1">
           <p class="fs-6 fw-bolder ">Dersler</p>
           <a class="fs-6 fw-light text-white-50 text-decoration-none"> Çocuklar için Web</a>
           <a class="fs-6 fw-light text-white-50 text-decoration-none"> Yetişkinler için Web</a>
           <a class="fs-6 fw-light text-white-50 text-decoration-none"> Yetişkinler için Mentörlük</a>
         </div>
-        <div class="col-sm-6 col-md-3 d-flex flex-column gap-1">
+        <div class="col-sm-6 my-3 col-md-3 d-flex flex-column gap-1">
           <p class="fs-6 fw-bolder ">Yasal</p>
           <a class="fs-6 fw-light text-white-50 text-decoration-none"> Şartlar ve koşullar</a>
           <a class="fs-6 fw-light text-white-50 text-decoration-none"> Gizlilik Politikası</a>
@@ -156,7 +157,7 @@
         </div>
       </div>
     </footer>
-    <hr>
+    <hr class="text-light-emphasis my-4">
     <footer class="container bg-dark">
       <div class="row">
         <div class="col-lg-6">
